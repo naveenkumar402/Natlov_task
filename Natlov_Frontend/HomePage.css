@@ -1,0 +1,35 @@
+nav{
+    display: inline-flex;
+    justify-content: space-between;
+    background: green;
+    color: aliceblue;
+    width:100%;
+    align-items: center;
+    
+}
+nav h1{
+    margin-left: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh; 
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    background-color: gray;
+    color: white;
+  }
+  button:hover{
+    background-color: green;
+  }
